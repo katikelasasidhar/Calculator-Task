@@ -1,0 +1,81 @@
+.box{
+    background-color: lightgray;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap:10px;
+  
+   border-radius: 25px;
+   
+}
+body{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    background:linear-gradient(to right,skyblue,pink);
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.display{
+    
+    grid-column:span 4;
+    text-align-last: right;
+    box-sizing: border-box;
+    background-color: rgb(53, 53, 53);
+    height: 90px;
+    font-size:40px;
+    border: none;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+  outline: none;
+     
+}
+input{
+    border: none;
+    border-color: transparent;
+    outline: 0;
+    width: 100%;
+}
+
+
+.box>.btn{
+    background-color: rgb(65, 65, 65);
+    border: none;
+    color:white;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size:20px ;
+    
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+   border-radius: 50%;
+ 
+ 
+}
+.box> .bp {
+    background-color: rgba(230, 203, 0, 0.993);
+}
+.box>  .bmi {
+    background-color: rgba(111, 230, 0, 0.993);
+}
+.box> .bmu {
+    background-color: rgba(203, 5, 221, 0.993);
+}
+.box>  .bd{
+    background-color: rgba(230, 0, 88, 0.993);
+}
+.box>.bc{
+    background-color: tomato;
+}
+.box>.be{
+    background-color: green;
+}
+.operator{
+    color: black;
+}
